@@ -1,0 +1,40 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+  margin: auto;
+}
+.wrapper-index {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  grid-template-rows: 20% 60% 20%;
+}
+#header {
+  grid-column: 1/5;
+  grid-row: 1;
+  background-color: lightcyan;
+  display: flex;
+}
+#logo {
+  justify-content: left;
+}
+#title {
+  margin: auto;
+}
+
+#menu {
+  background-color: lightsalmon;
+  grid-column: 1/5;
+  grid-row: 2;
+}
+
+#main {
+  background-color: lightgreen;
+  grid-column: 1/5;
+  grid-row: 3;
+}
+#footer {
+  background-color: lightcoral;
+  grid-column: 1/5;
+  grid-row: 4;
+  margin-top: 2%;
+}
